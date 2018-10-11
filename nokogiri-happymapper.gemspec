@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
   s.files = `git ls-files -- lib/*`.split("\n")
   s.homepage = 'http://github.com/mvz/happymapper'
   s.require_paths = ['lib']
-  s.required_ruby_version = '>= 2.3.0'
+  s.required_ruby_version = '>= 2.2.0'
   s.summary = 'Provides a simple way to map XML to Ruby Objects and back again.'
   s.license = 'MIT'
   s.test_files = `git ls-files -- spec/*`.split("\n")
